@@ -1,0 +1,1652 @@
+body.light {
+    background-color: #ebeef1;
+}
+
+body.light #background{
+    border: none;
+}
+
+body.light footer{
+    color: rgb(32, 45, 55);
+}
+
+body.light footer a{
+    color: #758592
+}
+
+body.light #copyright{
+    color: #9AA4AF;
+    border-color: #DBE0E4;;
+}
+
+.nav2{
+    height: 43px;
+}
+#searchNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+
+#searchNav>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 1080px;
+}
+
+#searchNav div img{
+    height: 47px;
+    width: 120px;
+    margin-right: 7px;
+}
+
+body #user-box.little{ /* per contrastare la specificità dell'altro file css */
+    height: 32px;
+    width: 950px;
+    border-radius: 5px;
+    margin: 0px;
+    background-color: white;
+    color: #9AA4AF;
+}
+
+#user-box.little a img{
+    height: 70%;
+    width: 70%;
+}
+
+#user-box.little a{
+    display: inline-flex;
+    height: 30px;
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#user-box.little #region{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    padding: 0px;
+    width: 70px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 131, 232);
+    background-color: rgb(227, 237, 245);
+    font-size: 12px;
+}
+
+#user-box.little #region .arrow{
+    border-left: 5px solid transparent; /* Lato sinistro trasparente */
+    border-right: 5px solid transparent; /* Lato destro trasparente */
+    border-top: 5px solid rgb(83, 131, 232); /* Lato superiore colorato */
+    margin-left: 7px;
+    width: 0px;
+}
+
+
+body #user-box.little #gameTag{
+    background-color: #ebeef1;
+}
+
+
+#user-box.little #search{
+   height: 100%;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   color: #9AA4AF;
+   font-size: 12px;
+}
+
+#user-box.little #search input{
+    color: black;
+    top: 3px;
+    right: 60px;
+    width: 84%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+#user-box.little #search input.writing{
+    background-color: white;
+}
+
+#user-box.little #RegionList{
+    top: 32px;
+    right: 880px;
+    border-radius: 5px;
+    width: 190px;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+#user-box.little #RegionList img{
+   height: 60%;
+   width: 20%;
+}
+
+#user-box.little #RegionList span{
+    justify-content: flex-start;
+ }
+
+ #profileHeader{
+    width: 100%;
+    height: 225px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+body.dark #profileHeader{
+    background-color: #31313c;
+}
+
+body.light #profileHeader{
+    background-color: white;
+}
+
+#premiumBanner{
+    bottom: 7px;
+    right: -320px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 310px;
+    white-space: wrap;
+}
+body.dark #premiumBanner{
+    color: white;
+}
+
+body.light #premiumBanner{
+    color: rgb(32, 45, 55);
+}
+
+#premiumBanner img{
+    height: 33px;
+    width: 33px;
+    margin-right: 5px;
+}
+
+#profileHeaderContent{
+    width: 1080px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+    font-size: 12px;
+    color: #777783;
+    justify-content: flex-start;
+
+    
+}
+
+#premium-beta{
+    color: white;
+}
+
+#premium-logo{
+    font-weight: 800;
+}
+
+@media(max-width: 1740px){
+    #premiumBanner{
+        display: none;
+    }
+}
+
+#ChampsHeaderTitle{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#ChampsHeaderTitle img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -7px;
+}
+
+body.dark #ChampsHeaderTitle{
+    color: white;
+}
+
+body.light #ChampsHeaderTitle{
+    color: #202D37;
+}
+
+#profileIconContainer{
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100px;
+    margin-right: 20px;
+    align-items: center;
+    
+}
+
+#profileIcon{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+
+#profileLvl{
+    padding: 3px 8px;
+    background-color: #202D37;
+    color: white;
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: -10px;
+}
+
+#profileInfoContainer{
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    width: 900px;
+}
+
+#profileName{
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+#GameName{
+    font-weight: 600;
+}
+
+body.dark #GameName{
+    color: white;
+}
+
+body.light #GameName{
+    color: black;
+}
+
+#tagLine{
+    color: rgb(158, 158, 177);
+}
+
+#profileNav{
+    height: 45px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body.dark #profileNav{
+    background-color: #31313c;
+}
+
+body.light #profileNav{
+    background-color: white;
+}
+
+#background{
+    margin-top:0px;
+}
+
+#profileNavContent{
+    display: flex;
+    width: 1080px;
+    align-items: center;
+}
+
+#profileNavContent span{
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body.dark #profileNavContent span{
+    color: white;
+    background-color:rgb(92, 92, 102)
+}
+
+body.light #profileNavContent span{
+    color: rgb(65, 113, 214);
+    background-color:rgb(236, 242, 255);
+}
+
+#mainContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#mainContent{
+    width: 1080px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+#mainC1{
+    width: 330px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainC2{
+    width: 740px;
+    margin-top: 10px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.rankedInfoBox{
+    width: 100%;
+    height: fit-content;
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+body.dark .rankedInfoBox{
+    color: white;
+    background-color: #31313c;
+}
+
+body.light .rankedInfoBox{
+    color: black;
+    background-color: white;
+}
+
+.rankedInfoBox>span{
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    width: calc(100% - 12px);
+    height: 35px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+body.dark .rankedInfoBox>span{
+    border-color: #1c1c1c;
+}
+
+body.light .rankedInfoBox>span{
+    border-color: rgb(236, 242, 255);
+}
+
+.rankedInfoBox>div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    margin: 10px;
+    position: relative;
+    color: #7B7A8E;
+    font-size: 12px;
+}
+
+.rankedInfoBox>div span{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rankedEmblem{
+    height: 80%;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.rankedEmblemContainer{
+    height: 72px;
+    width: 72px;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    margin-right: 15px
+}
+
+body.dark .rankedEmblemContainer{
+    background-color: #252525;
+}
+
+body.light .rankedEmblemContainer{
+    background-color: #F7F7F9;
+}
+
+.rankedInfoBox[data-ranked-type="flex"] .rankedEmblemContainer{
+    height: 40px;
+    width: 40px;
+}
+
+.rankedInfoBox[data-ranked-type="flex"] .rankedEmblem{
+    margin-top: 5px;
+}
+
+.divisionInfo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.rankedInfoBox[data-ranked-type="solo"] .divisionInfo > :first-child{
+    font-size: 20px;
+    font-weight: bold;
+    /*color: white;*/
+    margin-bottom: 0px;
+}
+
+.rankedInfoBox[data-ranked-type="flex"] .divisionInfo > :first-child{
+    font-weight: bold;
+   /*color: white;*/
+    margin-bottom: 0px;
+}
+
+body.dark .rankedInfoBox .divisionInfo > :first-child{
+    color: white;
+}
+
+body.light .rankedInfoBox .divisionInfo > :first-child{
+    color: black;
+}
+
+.winrate{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+
+#matchesNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+body.dark #matchesNav{
+    background-color: #31313c;
+}
+
+body.light #matchesNav{
+    background-color: white;
+}
+
+#matchesNav span{
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+body.dark #matchesNav span{
+    color: white;
+}
+
+body.light #matchesNav span{
+    color: black;
+}
+
+body.dark #matchesNav span:hover{
+    background-color: #26262b;;
+}
+
+body.light #matchesNav span:hover{
+    background-color: rgb(236, 242, 255);
+}
+
+body.dark #matchesNav span.clicked{
+    color: white;
+    background-color: rgb(92, 92, 102);
+    font-weight: bolder;
+}
+
+body.light #matchesNav span.clicked{
+    color: rgb(65, 113, 214);
+    background-color: rgb(236, 242, 255);
+    font-weight: bolder;
+}
+
+
+#totalStats{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+body.dark #totalStats{
+    background-color: #31313c;
+}
+
+body.light #totalStats{
+    background-color: white;
+}
+
+#totalStats.hidden{
+    display: none;
+}
+
+.matchStats{
+    height: 95px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.match.victory .matchStats{
+    background-color: #5383E8;
+}
+
+.match.defeat .matchStats{
+    background-color: #E84057;
+}
+
+.matchStats .matchContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 93%;
+    margin-left: 7px;
+    justify-content: space-around;
+}
+
+body.dark .match.victory .matchStats .matchContent{
+    background-color: #28344E; 
+    color: #9E9EB1;
+}
+
+body.dark .match.defeat .matchStats .matchContent{
+    background-color: #59343B;
+    color: #9E9EB1;
+}
+
+body.light .match.victory .matchStats .matchContent{
+    background-color: #ECF2FF;
+    color: #7B7A8E;
+}
+
+body.light .match.defeat .matchStats .matchContent{
+    background-color: #FFF1F3;
+    color: #7B7A8E;
+}
+
+.matchStats .Description{
+    display: inline flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.matchStats .main{
+    display: inline flex;
+    flex-direction: column;
+    height: 100%;
+    width: 380px;
+}
+
+.matchStats .TeamList{
+    display: inline flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 170px;
+}
+
+.matchStats .Description .dividerLine{
+    width: 48px;
+    height: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+body.dark .match.victory .matchStats .Description .dividerLine{
+    background-color: #2F436E;
+}
+
+body.dark .match.defeat .matchStats .Description .dividerLine{
+    background-color: #703C47;
+}
+
+body.light .match.victory .matchStats .Description .dividerLine{
+    background-color: #D5E3FF;
+}
+
+body.light .match.defeat .matchStats .Description .dividerLine{
+    background-color: #FFD8D9;
+}
+
+
+
+
+.matchContent .Description span{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.matchContent .Description .date{
+    font-size: 11px;
+}
+
+
+.matchContent .Description .matchType{
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.match.defeat .matchStats .Description .matchType{
+    color: #E84057;
+}
+
+.match.victory .matchStats .Description .matchType{
+    color: #5383E8;
+}
+
+.matchContent .Description .result{
+    font-weight: 700;
+}
+
+.main .mainUpper{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.main .mainLower{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mainUpper .champIcon{
+   position: relative;
+   margin-right: 5px;
+   height: 48px;
+   width: 48px;
+   z-index: 2;
+   border-radius: 50px;
+   background-image: url(https://ddragon.leagueoflegends.com/cdn/14.7.1/img/champion/Kayle.png);
+   background-size: 54px 54px;
+   background-position: center;
+}
+
+
+.mainUpper .champIcon span{
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: rgb(32, 45, 55);
+    color: white;
+    padding: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.mainUpper .summonersIcons, .mainUpper .runesIcons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4px;
+ }
+
+.mainUpper .summonersIcons img, .mainUpper .runesIcons img{
+    height: 22px;
+    width: 22px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+ }
+
+ .mainUpper .runesIcons img.mainRune{
+    border-radius: 10px;
+    background-color: black;
+ }
+
+ .mainUpper .runesIcons img.secondaryRune{
+    height: 20px;
+    width: 20px;
+    margin-left: 1px;
+ }
+
+ .mainUpper .scoreKDA{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 12px;
+ }
+
+ .scoreKDA .score{
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 5px;
+ }
+
+ body.dark .scoreKDA .score{
+    color: white;
+ }
+
+ body.light .scoreKDA .score{
+    color: black;
+ }
+
+ .scoreKDA .score .bar{
+    color: #9E9EB1;
+ }
+ 
+ .scoreKDA .score .deaths{
+    color: #E84057;
+ }
+
+ .mainUpper .otherStats{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    font-size: 12px;
+    border-left: 1px solid;
+    padding-left: 10px;
+ }
+
+ body.dark .match.victory .matchStats .mainUpper .otherStats{
+    border-color: #2F436E;
+ }
+
+ body.dark .match.defeat .matchStats .mainUpper .otherStats{
+    border-color: #703C47;
+ }
+
+ body.light .match.victory .matchStats .mainUpper .otherStats{
+    border-color: #D5E3FF;
+ }
+
+ body.light .match.defeat .matchStats .mainUpper .otherStats{
+    border-color: #FFD8D9
+ }
+
+ .mainUpper .otherStats .PKill{
+    color: #E84057;
+ }
+
+ .mainLower div{
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    margin-right: 3px;
+ }
+
+ .match.victory .matchStats .mainLower div{
+    background-color: #2F436E;
+ }
+
+ .match.defeat .matchStats .mainLower div{
+    background-color: #703C47;
+ }
+
+ .mainLower .item{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+ }
+
+ .item.hidden{
+    display: none;
+ }
+ 
+ .ward.hidden{
+    display: none;
+ }
+
+ .mainLower .ward{
+    border-radius: 10px;
+    height: 22px;
+    width: 22px;
+ }
+
+ .matchContent .TeamList .team{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: space-between;
+ }
+
+ .TeamList .team .player{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+ }
+
+ .TeamList .team .player img{
+    height: 16px;
+    width: 16px;
+    border-radius: 5px;
+    margin-right: 4px;
+ }
+
+ .TeamList .team .player span{
+    text-wrap: nowrap;
+    cursor: pointer;
+ }
+ .match.hidden{
+    display: none;
+ }
+
+ .match.model{
+    display: none;
+ }
+
+ .match .lane.hidden{
+    display: none;
+ }
+
+ #totalStats>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+ }
+
+#winsLosses{
+    width: 90px;
+    margin-left: 10px;
+    margin-right: 30px;
+ }
+
+#averageScore{
+    width: 86px;
+    margin-right: 35px;
+    
+    align-items: flex-start;
+ }
+
+ #recentChampions{
+    width: 220px;
+    margin-right: 30px;
+ }
+
+ #preferredPosition{
+    width: 220px;
+    color: #9E9EB1;
+    font-size: 12px;
+ }
+
+ #pie-chart {
+    width: 88px;
+    height: 88px;
+    position: relative;
+}
+
+#hole{
+  position: absolute;
+  border-radius: 100%;
+  top: 15.5%;
+  left: 15.5%;
+  width: 62px;
+  height: 62px;
+  z-index: 4;
+  color: #5383E8;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.dark #hole{
+    background-color: #31313c;
+}
+
+body.light #hole{
+    background-color:  white;
+}
+
+#slice {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip: rect(0px, 44px, 88px, 0px);
+    border-radius: 50%;
+    background-color: #E84057; /* Cambia il colore della fetta */
+  z-index: 2;
+   /*transform: rotate(90deg);*/
+    /*transform-origin: 100% 50%*/;
+}
+
+#slice2 {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:  #5383E8;
+}
+
+#slicewinrate {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    clip: rect(0px, 44px, 88px, 0px);
+    border-top-left-radius: 100%;
+  z-index: 3;
+   transform: rotate(-70deg);
+   /*90 -looseRate*360  per losses*/
+   /*360 - winrate*360 per wins*/
+   transform-origin: 100% 100%;
+}
+
+#slicewinrate2 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    clip: rect(0px, 44px, 88px, 0px);
+    border-top-left-radius: 100%;
+    z-index: 3;
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
+}
+#slicewinrate2.moreWins {
+    background-color: #5383E8;
+    transform: rotate(-90deg);
+}
+#slicewinrate2.moreLosses {
+    background-color: #E84057;
+    transform: rotate(-180deg);
+}
+#slicewinrate2.hidden{
+    display: none;
+}
+
+#slicewinrate.moreWins{
+    background-color:  #5383E8;
+}
+
+#slicewinrate.moreLosses{
+    background-color: #E84057;
+}
+
+#slicewinrate.equalWinsLosses{
+    display: none;
+}
+
+#wrNumbers{
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+body.dark #wrNumbers{
+    color: #9E9EB1;
+}
+
+body.light #wrNumbers{
+    color: #7B7A8E;
+}
+
+#score1{
+    color: #9E9EB1;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+body.dark #score1{
+    color: #9E9EB1;
+}
+
+body.light #score1{
+    color: #7B7A8E;
+}
+
+#score1 .deaths{
+    color: #E84057
+}
+
+#score2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+body.dark #score2{
+    color: white;
+}
+
+body.light #score2{
+    color: black;
+}
+
+#score3{
+    color: #E84057;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+#preferredPosition span{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#barsContainer {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#barsContainer .role{
+    height: 100%;
+    width: 16px;
+}
+
+#barsContainer .role .bar{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+body.dark #barsContainer .role .bar{
+    background-color: #424254;
+}
+
+body.light #barsContainer .role .bar{
+    background-color:  #DBE0E4;
+}
+
+#barsContainer .role img{
+    height: 16px;
+    width: 16px;
+    margin-top: 8px;
+}
+
+#barsContainer .role .bar .blueBar{
+    height: 50%;
+    width: 100%;
+    background-color: #5383E8;
+}
+
+.moreStats{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+
+.moreStats .spaceRect{
+    width: 100%;
+    height: 105px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body.dark .moreStats .spaceRect{
+    background-color: #31313c;
+}
+
+body.light .moreStats .spaceRect{
+    background-color: white;
+}
+
+.moreStats .moreStatsNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body.dark .moreStats .moreStatsNav{
+    background-color: #31313c;
+}
+
+body.light .moreStats .moreStatsNav{
+    background-color: white;
+}
+
+.moreStats .moreStatsNav span {
+    padding: 5px 40px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+body.dark .moreStats .moreStatsNav span{
+    color: white;
+    background-color: rgb(92, 92, 102);
+}
+
+body.light .moreStats .moreStatsNav span{
+    color: rgb(65, 113, 214);
+    background-color: rgb(236, 242, 255);
+}
+
+
+.moreStats .moreStatsContent{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+body.dark .moreStats .moreStatsContent{
+    background-color: #31313c;
+    color: #9E9EB1;
+}
+
+body.light .moreStats .moreStatsContent{
+    background-color: white;
+    color: #9E9EB1;
+}
+
+.moreStatsContent .teamStats{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+body.dark .match.victory .moreStatsContent .team1 .fullStats, body.dark .match.defeat .moreStatsContent .team2 .fullStats{
+    background-color: #28344E;
+    border-top: 2px solid #2F436E;
+}
+
+body.dark .match.defeat .moreStatsContent .team1 .fullStats, body.dark .match.victory .moreStatsContent .team2 .fullStats{
+    background-color: #59343B;
+    border-top: 2px solid #703C47;
+}
+
+body.light .match.victory .moreStatsContent .team1 .fullStats, body.light .match.defeat .moreStatsContent .team2 .fullStats{
+    background-color: #ECF2FF;
+    border-top: 2px solid #D5E3FF;
+}
+
+body.light .match.defeat .moreStatsContent .team1 .fullStats, body.light .match.victory .moreStatsContent .team2 .fullStats{
+    background-color: #FFF1F3;
+    border-top: 2px solid #FFD8D9;
+}
+
+
+.moreStatsContent .teamBars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 54px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+body.dark .moreStatsContent .teamBars{
+    border-color: #1c1c1c;
+}
+
+body.light .moreStatsContent .teamBars{
+    border-color:#ebeef1;
+}
+
+.teamStats .statsInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+    width: 100%;
+}
+
+.teamStats .statsInfo .esitoPartita{
+    width: 175px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .statsInfo .winOrLoss{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.match.victory .team1 .winOrLoss, .match.defeat .team2 .winOrLoss{
+    color:rgb(83, 131, 232);
+}
+
+.match.defeat .team1 .winOrLoss, .match.victory .team2 .winOrLoss{
+    color:#E84057;
+}
+
+
+.teamStats .statsInfo .opScore{
+    width: 62px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .statsInfo .Kda{
+    width: 92px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .statsInfo .damage{
+    width: 110px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .statsInfo .wards{
+    width: 60px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .statsInfo .cs{
+    width: 60px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .statsInfo .item{
+    width: 175px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .fullStats{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-top: 4px;
+    width: 100%;
+}
+
+.teamStats .fullStats .player{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+}
+
+
+.teamStats .player .nameSumsRunes{
+    width: 175px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .player .opScore{
+    width: 62px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamStats .player .Kda{
+    width: 92px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 11px;
+    padding-right: 10px;
+}
+
+.teamStats .player .damage{
+    width: 100px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.teamStats .player .bar{
+    width: 45px;
+    height: 6px;
+    background-color: #31313C;
+}
+
+body.dark .teamStats .player .bar{
+    background-color: #31313C;
+}
+
+body.light .teamStats .player .bar{
+    background-color: white;
+}
+
+.player .dmgDealt .fillBar{
+    background-color: #E84057;
+    height: 100%;
+    width: 50%;
+}
+
+.player .dmgTaken .fillBar{
+    background-color: #7B7A8E;
+    height: 100%;
+    width: 50%;
+}
+
+.teamStats .player .wards{
+    width: 60px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px
+}
+
+.teamStats .player .cs{
+    width: 60px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+}
+
+.teamStats .player .items{
+    width: 175px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nameSumsRunes .champIcon{
+    position: relative;
+    margin-right: 2px;
+    margin-left: 6px;
+    height: 32px;
+    width: 32px;
+    z-index: 2;
+    border-radius: 50px;
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/14.7.1/img/champion/Kayle.png);
+    background-size: 35px 35px;
+    background-position: center;
+ }
+ 
+ 
+ .nameSumsRunes .champIcon span{
+     font-size: 9px;
+     border-radius: 10px;
+     background-color: rgb(32, 45, 55);
+     color: white;
+     padding: 3px;
+     position: absolute;
+     bottom: -7px;
+     left: -3px;
+ }
+ 
+ .nameSumsRunes .summonersIcons, .nameSumsRunes .runesIcons{
+     display: flex;
+     flex-direction: column;
+     margin-right: 2px;
+  }
+ 
+ .nameSumsRunes .summonersIcons img, .nameSumsRunes .runesIcons img{
+     height: 16px;
+     width: 16px;
+     border-radius: 4px;
+     margin-bottom: 2px;
+  }
+ 
+  .nameSumsRunes .runesIcons img.mainRune{
+     border-radius: 10px;
+     background-color: black;
+  }
+ 
+  .nameSumsRunes .runesIcons img.secondaryRune{
+     height: 16px;
+     width: 16px;
+     margin-left: 1px;
+  }
+ 
+  .nameSumsRunes .name{
+    height: 100%;
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nameSumsRunes .name .summonerName{
+    text-wrap: wrap;
+    cursor: pointer;
+  }
+
+  body.dark .nameSumsRunes .name .summonerName{
+    color: white;
+  }
+
+  body.light .nameSumsRunes .name .summonerName{
+    color: black;
+  }
+
+  .player .Kda .kdaPerc{
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .player .Kda .UMA, .player .Kda .kPerc{
+    margin-top: 5px;
+    width: fit-content;
+  }
+
+  .player .damage span{
+    width: 45px;
+  }
+
+  .player .wards .placedKilled{
+    display: block;
+  }
+
+  .player .items div{
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    margin-right: 3px;
+ }
+
+ body.dark .match.victory .team1 .player .items div,  body.dark .match.defeat .team2 .player .items div{
+    background-color: #2F436E;
+ }
+
+ body.dark .match.defeat .team1 .player .items div,  body.dark .match.victory .team2 .player .items div{
+    background-color: #703C47;
+ }
+
+ body.light .match.victory .team1 .player .items div,  body.light .match.defeat .team2 .player .items div{
+    background-color: #B3CDFF;
+ }
+
+ body.light .match.defeat .team1 .player .items div,  body.v .match.victory .team2 .player .items div{
+    background-color: #FFBAC3;
+ }
+
+ .player .items .item{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+ }
+
+ .moreStatsContent .teamBars .objectives{
+    height: 36px;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    display: none;
+}
+
+ .moreStatsContent .teamBars .bars{
+    height: 36px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.moreStatsContent .teamBars .objItem{
+    height: 16px;
+    width: 38px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.moreStatsContent .teamBars .bar{
+   width: calc(100% - 10px);
+   height: 45%;
+   background-color: #5383E8;
+   position: relative;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 5px 0 5px;
+   align-items: center;
+}
+
+.moreStatsContent .bar span{
+    z-index: 2;
+}
+
+.moreStatsContent .teamBars .enemyBar{
+    width: 50%;
+    height: 100%;
+    background-color: #E84057;
+    position: absolute;
+    top:0px;
+    right: 0px;
+ }
+
+ .matchStats .matchEnding{
+    height: 100%;
+    flex-grow: 1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+ }
+
+ body.dark .match.victory .matchEnding{
+    background-color: #31405f;
+ }
+
+ body.dark .match.defeat .matchEnding{
+    background-color: #70424a;
+ }
+
+ body.light .match.victory .matchEnding{
+    background-color:  #D5E3FF;
+ }
+
+ body.light .match.defeat .matchEnding{
+    background-color: #FFD8D9;
+ }
+
+ body.dark .match.victory .matchEnding:hover{
+    background-color: #28344E;
+ }
+
+ body.dark .match.defeat .matchEnding:hover{
+    background-color: #59343B;
+ }
+
+ body.light .match.victory .matchEnding:hover{
+    background-color: rgb(164, 187, 231);
+ }
+
+ body.light .match.defeat .matchEnding:hover{
+    background-color: #eebbbc;
+ }
+
+ .matchStats .arrow{
+    border-left: 10px solid transparent; /* Lato sinistro trasparente */
+    border-right: 10px solid transparent; /* Lato destro trasparente */
+    border-top: 10px solid; /* Lato superiore colorato */
+    margin: 0 0 15px 0 ;
+ }
+
+ .matchStats .arrow.opened{
+   transform: rotate(180deg);
+ }
+
+ .match.victory .matchStats .arrow{
+    border-top-color: rgb(83, 131, 232);
+ }
+
+ .match.defeat .matchStats .arrow{
+    border-top-color: #E84057;
+ }
+
+ .moreStats.hidden{
+    display: none;
+ }
+
+#sadAmumu{
+    margin-top: 20px;
+    height: 300px;
+    box-shadow: 0 0px 22px 10px rgba(0,0,0,0.5);
+    /* Y offset, X offset, blur radius, spread radius, color*/
+    border-radius: 5px;
+}
+
+#Err404{
+    color: white;
+}
